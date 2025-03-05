@@ -70,7 +70,8 @@ genresCall();
         <Route path="/" element={<Home />} />
         <Route path="/:mediaType/:id" element={<Details />} />
         <Route path="/search/:query" element={<SearchResult />} />
-        <Route path="/explore/:mediaType" element={<Explore />} />
+        {/* Below route is HomeWork, nav components */}
+        <Route path="/explore/:mediaType" element={<Explore />} /> 
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />

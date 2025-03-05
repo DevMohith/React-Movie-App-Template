@@ -16,7 +16,7 @@ useEffect(() =>{
         setLoading(false);
         setData(res);
     })
-    .catch((err) => {
+    .catch(() => {
         setLoading(false);
         setError("soehting went wrong");
     });
